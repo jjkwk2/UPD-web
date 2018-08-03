@@ -1,0 +1,21 @@
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+	color:black;
+}
+.help-block{
+	color:gray;
+}
+
+*[role="form"] h2 {
+	color:black;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+body{
+	background:url(../img/bg-1.jpg); no-repeat :center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-repeat:no-repeat;
+}
