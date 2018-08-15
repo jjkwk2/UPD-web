@@ -3,39 +3,38 @@
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
 
-    <title>United PhilBrokers, Inc.</title>
+<title>United PhilBrokers, Inc.</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="<?php echo ('');?> assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-	  
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+<!-- Custom fonts for this template -->
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/new-age.min.css" rel="stylesheet">
-	
-	<!-- My CSS TEMPLATE-->
-	<link href="assets/css/navbar-style.css" rel="stylesheet">
-  </head>
+<link rel="stylesheet" href="<?php echo ('');?>assets/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo ('');?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
+<link href="<?php echo ('');?>https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="<?php echo ('');?>https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="<?php echo ('');?>https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="<?php echo ('');?>/device-mockups/device-mockups.min.css" media="all" type="text/css">
+
+<!-- Custom styles for this template -->
+<link href="<?php echo ('');?>assets/css/new-age.min.css" rel="stylesheet">
+
+<!-- My CSS TEMPLATE-->
+<link href="<?php echo ('');?>assets/css/navbar-style.css" rel="stylesheet" media ="all" type="text/css">
+</head>
 
   <body id="page-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo-1.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo ('');?>assets/img/logo-1.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -144,21 +143,21 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image:url(img/event-1.jpg);background-size:100% 100%; background-repeat: no-repeat;">
+          <div class="carousel-item active" style="background-image:url(assets/img/event-1.jpg);background-size:100% 100%; background-repeat: no-repeat;">
             <div class="carousel-caption d-none d-md-block">
               <h3 style="text-shadow: 1px 1px 1px #000">Event Slide</h3>
               <p style="text-shadow: 1px 1px 1px #000">This is a sample description for the first slide.</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url(img/event-2.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/event-2.jpg)">
             <div class="carousel-caption d-none d-md-block">
               <h3 style="text-shadow: 1px 1px 1px #000">Event Slide</h3>
               <p style="text-shadow: 1px 1px 1px #000">This is a sample description for the second slide.</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url(img/event-3.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/event-3.jpg)">
             <div class="carousel-caption d-none d-md-block">
               <h3 style="text-shadow: 1px 1px 1px #000">Event Slide</h3>
               <p style="text-shadow: 1px 1px 1px #000">This is a sample description for the third slide.</p>
@@ -260,21 +259,21 @@
     <div class="showcase">
     <div class="container-fluid p-0">
          <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url(img/about.jpg);"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url(assets/img/about.jpg);"></div>
           <div class="col-lg-6 my-auto showcase-text " id="whoweare">
             <h2>United Philbrokers, Inc.</h2>
             <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img"  style="background-image: url(img/mission.jpg);"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img"  style="background-image: url(assets/img/mission.jpg);"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text" id="missionvision" >
             <h2>Our Mission</h2>
             <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url(img/vision.jpg);"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url(asseets/img/vision.jpg);"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h2>Our Vision</h2>
             <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -367,14 +366,14 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo ('');?>assets/vendor/jquery/jquery.min.js"></script>
+    <script src="<?php echo ('');?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="<assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?php echo ('');?>assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="assets/js/new-age.min.js"></script>
+    <script src="<?php echo ('');?>assets/js/new-age.min.js"></script>
 
   </body>
 

@@ -34,7 +34,69 @@
   </head>
 
   <body id="page-top">
-  <?php $this->view('client/header.php'); ?>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="<?php echo base_url('welcome'); ?>"><img src="<?php echo base_url();?>assets/img/logo-1.png"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo base_url('welcome'); ?>#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo base_url('welcome'); ?>#whoweare">Who We Are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo base_url('welcome'); ?>#missionvision">Mission/Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo base_url('welcome'); ?>#contact">Contact Us</a>
+			</li>
+         	 <li class="nav-item dropdown">
+         	 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Interested?<span class="caret"></span></a>
+         	 <ul id="login-dp" class="dropdown-menu dropdown-menu-right">
+         	 	<li>
+					 <div class="row">
+							<div class="col-md-12">
+								 
+										<!--<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										-->
+									 	<b>APPLYING AS:</b>	
+										<a href= "<?php echo base_url('clientbuyer'); ?>" ><div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">BUYER</button>
+										</div></a>
+										<a href="<?php echo base_url('clientseller'); ?>">
+									 	<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">SELLER</button>
+										</div>
+										</a>
+										
+							</div>
+						 <!--
+							<div class="bottom text-center w-100">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+						-->
+					 	</div>
+					</li>
+         		</ul>
+			  </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 <div id ="container" style ="margin-top:90px; margin-bottom:30px;">
 <form class="form-horizontal needs-validation" role="form" method="post" action="<?php echo base_url('clientseller/insertcl');?>">
 		<center><h1>Seller's Application Form</h1></center>
@@ -62,7 +124,7 @@
                 <div class="form-group">
                     <label for="setDate" class="col-sm-4 control-label">Preferred Date</label>
                     <div class="col-sm-12">
-                        <input type="date" id="setDate" name="sdate" class="form-control">
+                        <input type="date" id="setDate" name="sdate" class="form-control" min="<?php echo date("Y-m-d"); ?>">
                     </div>
                 </div>
               	<div class="form-group">
@@ -82,10 +144,10 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <div class="col-lg-6 text-center text-lg-left my-auto">
             <p class="text-muted small mb-4 mb-lg-0">&copy; United Philbrokers 2018. All Rights Reserved.</p>
           </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <div class="col-lg-6 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3">
                 <a href="#">

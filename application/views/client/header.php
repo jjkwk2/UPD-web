@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <!-- Bootstrap core CSS -->
+<link href="<?php echo base_url();?> assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Custom fonts for this template -->
 
-    <title>United PhilBrokers, Inc.</title>
+<link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
+<link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="<?php echo base_url();?>/device-mockups/device-mockups.min.css" media="all" type="text/css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url();?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="<?php echo base_url();?>assets/css/new-age.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
- 
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="<?php echo base_url();?>https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">'
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/device-mockups/device-mockups.min.css" media="all" type="text/css">
+<!-- My CSS TEMPLATE-->
+<link href="<?php echo base_url();?>assets/css/navbar-style.css" rel="stylesheet" media ="all" type="text/css">
+<link href="<?php echo base_url();?>assets/css/buyerseller.css" rel="stylesheet"  media ="all" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="<?php echo base_url();?>assets/css/new-age.min.css" rel="stylesheet">
-	
-	<!-- My CSS TEMPLATE-->
-  <link href="<?php echo base_url();?>assets/css/navbar-style.css" rel="stylesheet" media ="all" type="text/css">
-  </head>
-<body>
+</head>
+
+  <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo-1.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url();?>assets/img/logo-1.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -70,10 +64,10 @@
 										</div>
 										-->
 									 	<b>APPLYING AS:</b>	
-										<a href= "<?php echo ('clientbuyer'); ?>" ><div class="form-group">
+										<a href= "<?php echo base_url('clientbuyer'); ?>" ><div class="form-group">
 											 <button type="submit" class="btn btn-primary btn-block">BUYER</button>
 										</div></a>
-										<a href="<?php echo ('clientseller'); ?>">
+										<a href="<?php echo base_url('clientseller'); ?>">
 									 	<div class="form-group">
 											 <button type="submit" class="btn btn-primary btn-block">SELLER</button>
 										</div>
@@ -104,6 +98,3 @@
     <!-- Custom scripts for this template -->
     <script src="<?php echo base_url();?>assets/js/new-age.min.js"></script>
 
-  </body>
-
-</html>
